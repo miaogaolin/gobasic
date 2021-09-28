@@ -9,6 +9,10 @@ type People struct {
 	Age  int
 }
 
+func (p *People) SetName(name string) {
+	p.Name = name
+}
+
 type Student struct {
 	People
 	Collect string
@@ -59,4 +63,11 @@ func main() {
 		Name: "匿名",
 	}
 	fmt.Println(ano.Name)
+
+	people := People{
+		Name: "老苗",
+	}
+	people.SetName("潇洒哥")
+	fmt.Println(people.Name)
+
 }
