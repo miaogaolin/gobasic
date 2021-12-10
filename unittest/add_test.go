@@ -1,6 +1,8 @@
 package unittest
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAdd(t *testing.T) {
 	excepted := 5
