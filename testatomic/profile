@@ -1,0 +1,5 @@
+mode: count
+github.com/miaogaolin/gobasic/testatomic/nums.go:5.29,8.27 2 1
+github.com/miaogaolin/gobasic/testatomic/nums.go:15.2,16.12 2 1
+github.com/miaogaolin/gobasic/testatomic/nums.go:8.27,10.18 2 200
+github.com/miaogaolin/gobasic/testatomic/nums.go:10.18,13.4 2 199
